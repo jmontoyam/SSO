@@ -61,3 +61,6 @@ This library has been used joinly with the smarthphonebrainscanner2 project (htt
 
 In the following we can see some pictures of this process in action:
 
+![alt tag](https://raw.github.com/jmontoyam/SSO/master/img/galaxy_note_online_matrix_factorization.jpg) 
+![alt tag](https://raw.github.com/jmontoyam/SSO/master/img/nexus7_online_matrix_factorization.jpg) 
+![alt tag](https://raw.github.com/jmontoyam/SSO/master/img/multiplatform_online_matrix_factorization.jpg) 
