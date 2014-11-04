@@ -57,7 +57,7 @@ This library has been used joinly with the smarthphonebrainscanner2 project (htt
 
 - Solve (online and as fast as possible) the nonsmooth convex optimization problem related with the EEG inverse problem (for instance, using the matrix factorization approach mentioned above).
 
-- Finally, show, using a 3D brain model, the solution of the former problem: the active cortex areas whose activity have produced the recorded data.
+- Finally, show, using a 3D brain model, the solution of the former problem: the active brain cortex areas whose activity have produced the recorded data.
 
 In the following we can see some pictures of this process in action:
 
