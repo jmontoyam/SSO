@@ -51,7 +51,7 @@ but this time select Android for armeabi-v7a -> Release.
 
 That's it!, enjoy the library!, all the comments and suggestions are truly welcome! :-).
 
-This library has been used joinly with the smarthphonebrainscanner2 project (https://github.com/SmartphoneBrainScanner/smartphonebrainscanner2-core/wiki) to solve the EEG inverse problem (using structured sparsity optimization algorithms) on mobile devices (currently tested on the Nexus7 and the Galaxy Note I). The summarized process is as follows: 
+This library has been used joinly with the smarthphonebrainscanner2 project (https://github.com/SmartphoneBrainScanner/smartphonebrainscanner2-core/wiki) to solve the EEG inverse problem on mobile devices (currently tested on the Nexus7 and the Galaxy Note I), using structured sparsity optimization algorithms. The summarized process is as follows: 
 
 - Capture EEG data from the Emotiv neuroheadset (http://emotiv.com/). 
 
