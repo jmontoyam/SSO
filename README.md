@@ -1,4 +1,4 @@
-<h3>Structured Sparse Optimization Library: solving nonsmooth convex optimization problems on mobile devices and laptop/desktop machines</h3>
+<h3>Structured Sparse Optimization Library: solving nonsmooth convex optimization problems on mobile devices and Laptop/Desktop machines</h3>
 
 
 Structured Sparse Optimization (<b>SSO</b>) Library is a C++ template library for solving composite
