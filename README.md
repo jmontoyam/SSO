@@ -53,7 +53,7 @@ That's it!, enjoy the library!, all the comments and suggestions are truly welco
 
 This library has been jointly used with the smarthphonebrainscanner2 project (https://github.com/SmartphoneBrainScanner/smartphonebrainscanner2-core/wiki) to solve,
 using structured sparsity optimization algorithms, the EEG inverse problem on mobile devices 
-(currently tested on the Nexus7 and the Galaxy Note I). The summarized process is as follows: 
+(currently tested on the Nexus7 and the Galaxy Note I). The solution procedure can be summarized as follows: 
 
 - Capture EEG data from the Emotiv neuroheadset (http://emotiv.com/). 
 
