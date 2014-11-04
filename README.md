@@ -61,7 +61,7 @@ using structured sparsity optimization algorithms, the EEG inverse problem on mo
 
 - Finally, show, using a 3D brain model, the solution of the former problem: the active brain cortex areas whose activity have produced the recorded data.
 
-In the following we can see some pictures of this process in action:
+In the following we can see some pictures of this procedure in action:
 
 ![alt tag](https://raw.github.com/jmontoyam/SSO/master/img/galaxy_note_online_matrix_factorization.jpg) 
 ![alt tag](https://raw.github.com/jmontoyam/SSO/master/img/nexus7_online_matrix_factorization.jpg) 
