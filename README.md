@@ -1,8 +1,7 @@
-Structured Sparse Optimization Library: solving nonsmooth convex optimization problems on mobile devices,
-as well as on laptop and desktop machines
-===
+<h3>Structured Sparse Optimization Library: solving nonsmooth convex optimization problems on Mobile devices and Laptop/Desktop machines</h3>
 
-Structured Sparse Optimization (SSO) Library is a C++ template library for solving composite
+
+Structured Sparse Optimization (<b>SSO</b>) Library is a C++ template library for solving composite
 optimization problems, whose objective function can be splitted into a 
 sum of a smooth and a nonsmooth function (both convex). In order to solve such problems,
 it uses the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA). It is based on Eigen, 
@@ -21,10 +20,10 @@ and new cost functions. Its implementation is based heavily on template metaprog
 The library contains the following example files and projects 
 (Qt projects (http://qt-project.org/) to be run on Android and Laptop/Desktop machines):
 
-Simulation_Compute_Only_B.cpp (Console app)
-Simulation_Compute_Only_C.cpp (Console app)
-Android_Compute_Only_B (Qt based GUI app for Android and Laptop/Desktop machines)	
-Android_Compute_Only_C (Qt based GUI app for Android and Laptop/Desktop machines)	
+- Simulation_Compute_Only_B.cpp (Console app)
+- Simulation_Compute_Only_C.cpp (Console app)
+- Android_Compute_Only_B (Qt based GUI app for Android and Laptop/Desktop machines)	
+- Android_Compute_Only_C (Qt based GUI app for Android and Laptop/Desktop machines)	
 
 You can compile the console app as follows:
 
@@ -41,10 +40,9 @@ To compile the Qt based GUI app for Android and Laptop/Desktop machines, please 
 3) Run Qt, and then select: File->Open File or Project and select the project file inside the Android_Compute_Only_B folder 
 (Android_Compute_Only_B.pro). 
 
-4) In the Configure Project window that appears after
-after the execute step 3), select both options "Android for armeabi-v7a" and "Desktop Qt 5.3.x GCC 64 bits", and then click the button "Configure Project".
+4) In the Configure Project window that appears after executing step 3), select both options "Android for armeabi-v7a" and "Desktop Qt 5.3.x GCC 64 bits", and then click the button "Configure Project".
 
-5) After executing step 4), the "Android_Compute_Only_B" must be opened. Now, look at the bottom left margin, there you will find a PC icon with the word debug bellow it, click on this icon, and select Desktop Qt 5.3.x GCC 64 bits -> Release. Then, compile and run the app (ctrl+r).
+5) After executing step 4), the "Android_Compute_Only_B" must be opened. Now, look at the bottom of the left margin, there you will find a PC icon with the word debug below it, click on this icon, and select Desktop Qt 5.3.x GCC 64 bits -> Release. Then, compile and run the app (ctrl+r).
 
 6) If you want to run the "Android_Compute_Only_B" app on your smartphone/tablet device, connect the device to the your PC and then repeat step 5),
 but this time select Android for armeabi-v7a -> Release.
@@ -53,11 +51,11 @@ but this time select Android for armeabi-v7a -> Release.
 
 That's it!, enjoy the library!, all the comments and suggestions are truly welcome! :-).
 
-This library has been used joinly with the smarthphonebrainscanner2 project (https://github.com/SmartphoneBrainScanner/smartphonebrainscanner2-core/wiki) to solve the EEG inverse problem on mobile devices (currently tested on the Nexus7 and the Galaxy Note I). The summarized process is as follows: 
+This library has been used joinly with the smarthphonebrainscanner2 project (https://github.com/SmartphoneBrainScanner/smartphonebrainscanner2-core/wiki) to solve the EEG inverse problem on mobile devices (currently tested on the Nexus7 and the Galaxy Note I), using structured sparsity optimization algorithms. The summarized process is as follows: 
 
--Capture EEG data from the Emotiv neuroheadset (http://emotiv.com/). 
+- Capture EEG data from the Emotiv neuroheadset (http://emotiv.com/). 
 
-- Solve (online, as fast as possible) the nonsmooth convex optimization problem related with the EEG inverse problem (for instance, using the matrix factorization approach mentioned above).
+- Solve (online and as fast as possible) the nonsmooth convex optimization problem related with the EEG inverse problem (for instance, using the matrix factorization approach mentioned above).
 
 - Finally, show, using a 3D brain model, the solution of the former problem: the active cortex areas whose activity have produced the recorded data.
 
